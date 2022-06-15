@@ -1,0 +1,14 @@
+LXS Chisinau Spitalul_Nr1 060871647
+ClientFizic 1 Cebotari Ion_Creanga_21 37360871647 2
+Snickers TR 0.2 0.2 null 1 23-10-2022 23-12-2022 500.0 
+Bear TO 1.0 0.1 true 2 01-01-2021 01-02-2021 500.0 
+ClientJuridic 2 Pancu Eminescu_2 37360837142 1 Ana_Balalaika
+Xiaomi TR 0.1 0.5 true 4 01-03-2019 01-04-2019 500.0 
+ClientFizic 3 Condrea Armeana_3 37360936321 1
+Hanorac TA 0.5 0.05 null 5 01-01-2020 01-02-2020 500.0 
+ClientJuridic 4 Baciu Sculeana_1 37360718291 1 John_Smith
+AirPods TO 0.05 0.075 true 6 01-06-2018 01-07-2018 500.0 
+ClientJuridic 5 Cius Albisoara_5 37379006693 1 Tom_Cruize
+AirMax TF 0.1 0.1 false 7 05-07-2021 05-08-2021 500.0 
+ClientFizic 10 Vasilita Flacara_5 060871647 1
+Marinate TO 1.0 1.0 null 20 11-01-2021 11-03-2021 500.0 

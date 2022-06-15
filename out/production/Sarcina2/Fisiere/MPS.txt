@@ -1,0 +1,13 @@
+MPS Balti Pacii_33 069866319
+ClientFizic 1 Munteanu Ion_Creanga_5 37370723214 3
+Pantaloni TF 0.75 0.100 true 12 05-06-2019 05-09-2018 500
+Frigider TO 2 30 true 13 02-02-2018 05-02-2018 500
+Ghete TR 0.100 1 true 14 05-02-2017 05-03-2017 500
+ClientFizic 2 Nicolenco Stefan_cel_Mare_1 37369373682 1
+Scaun TA 1.2 5 false 14 03-09-2021 03-12-2021 500
+ClientFizic 3 Condrea Cuza_Voda_12 37379128463 1
+Pulover TA 0.5 0.05 null 5 03-01-2020 01-05-2020 500
+ClientFizic 4 Vasluian Bodoni_12 37368091273 1
+Predator_X30 TF 0.30 2 null 6 01-09-2018 01-09-2018 500
+ClientFizic 5 Cius Albisoara_5 37379006693 1
+Gucci_Pants TR 0.70 0.100 null 7 08-09-2021 08-10-2021 500
