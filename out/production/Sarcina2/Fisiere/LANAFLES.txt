@@ -1,3 +1,0 @@
-LANAFLES Chisinau Albisaara_5 060871647
-ClientFizic 100 Cebotari AlbisoarA_100 060871647 1
-Borsh TR 0.1 0.5 false 1 01-01-2021 01-02-2022 500.0 

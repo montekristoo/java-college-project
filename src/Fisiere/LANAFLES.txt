@@ -1,0 +1,3 @@
+LANAFLES Kishinew Albisoara_76 060871647
+ClientFizic 10 Cebotari Eminescu_55 060871647 1
+Carne TR 1.0 1.0 null 3 01-01-2021 01-03-2021 500.0

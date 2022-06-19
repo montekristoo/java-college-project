@@ -60,7 +60,7 @@ public class WorkingSpace {
         for (int i = 0; i < filialeText.size(); i++) {
             String name = filialeText.get(i).replaceFirst("[.][^.]+$", "");
             out.println(name);
-            String path = "C:\\Users\\victo\\Desktop\\Sarcina2\\src\\Fisiere\\" + filialeText.get(i) + ".txt";
+            String path = "src\\Fisiere\\" + filialeText.get(i) + ".txt";
             for (Map.Entry<Filiala, ArrayList<Clienti>> entry : informations.entrySet()) {
                 Filiala key = entry.getKey();
                 ArrayList<Clienti> value = entry.getValue();
@@ -90,7 +90,7 @@ public class WorkingSpace {
         double dimensiune, kg, asigurare;
         String numeFiliala = null, stradaFiliala = null, orasFiliala = null, telefonFiliala = null;
         ///Citirea filialelor
-        Scanner reader = new Scanner(new FileReader("C:\\Users\\victo\\Desktop\\Sarcina2\\src\\ListeFiliale.txt"));
+        Scanner reader = new Scanner(new FileReader("src\\ListeFiliale.txt"));
         while(reader.hasNext()) {
             filialeText.add(reader.next());
         }
@@ -211,7 +211,7 @@ public class WorkingSpace {
 
     private void addBranche() throws IOException {
 
-        BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\victo\\Desktop\\Sarcina2\\src\\ListeFiliale.txt", true));
+        BufferedWriter writer = new BufferedWriter(new FileWriter("src\\ListeFiliale.txt", true));
         out.println("Introdu numele filialei: ");
         String nume = Exceptions.verifyLetters();
         ArrayList<Clienti> client = new ArrayList<Clienti>();
@@ -233,7 +233,7 @@ public class WorkingSpace {
 
         writer.write('\n' + nume);
         String filename = nume + ".txt";
-        String workingDirectory = ("C:\\Users\\victo\\Desktop\\Sarcina2\\src\\Fisiere\\");
+        String workingDirectory = ("src\\Fisiere\\");
         String absoluteFilePath = "";
         absoluteFilePath = workingDirectory + File.separator + filename;
         BufferedWriter w = new BufferedWriter(new FileWriter(absoluteFilePath));
@@ -268,10 +268,10 @@ public class WorkingSpace {
             }
         }
         if (ok) {
-            File file = new File("C:\\Users\\victo\\Desktop\\Sarcina2\\src\\Fisiere\\" + filiala + ".txt");
+            File file = new File("src\\Fisiere\\" + filiala + ".txt");
             file.delete();
             filialeText.remove(filiala);
-            BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\victo\\Desktop\\Sarcina2\\src\\ListeFiliale.txt"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("src\\ListeFiliale.txt"));
             for (String s : filialeText) {
                 writer.write(s + '\n');
             }
@@ -343,7 +343,7 @@ public class WorkingSpace {
             out.println("Tip colet [TO - Transport Oceanic, TA - Transport aerian, TF - Transport feroviar, TR - Transport rutier]: "); tipColet = Exceptions.verifyLetters();
             out.println("Dimensiune [m]: "); dimensiune = Double.parseDouble(Exceptions.verifyDouble());
             out.println("Greutate [kg]: "); kg = Double.parseDouble(Exceptions.verifyDouble());
-            out.println("Starea coletului [false - nu a ajuns | true - a ajuns | null - in curs de trimitere]: "); reached = Exceptions.verifyLetters();
+            out.println("Starea coletului [false - nu a ajuns | true - a ajuns | null - in curs de trimitere]: "); reached = Exceptions.verifyStare();
             out.println("Nr.contract: "); nrContract = Integer.parseInt(Exceptions.verifyNumbers());
             out.println("Data trimiterii: "); dateSended = Exceptions.verifyDate();
             out.println("Data primirii: "); dateRequested = Exceptions.verifyDate();
