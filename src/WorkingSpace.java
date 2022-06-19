@@ -104,7 +104,7 @@ public class WorkingSpace {
             ArrayList<Colet> colete = new ArrayList<>();
             ArrayList<Clienti> clienti = new ArrayList<Clienti>();
             String name = filialeText.get(i);
-            String path = "C:\\Users\\victo\\Desktop\\Sarcina2\\src\\Fisiere\\" + filialeText.get(i) + ".txt";
+            String path = "src\\Fisiere\\" + filialeText.get(i) + ".txt";
             BufferedReader brTest = new BufferedReader(new FileReader(path));
             String text = brTest.readLine();
             String[] parts = text.split(" ");
